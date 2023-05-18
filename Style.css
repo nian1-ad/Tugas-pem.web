@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+:root{
+
+   --yellow:#ffffc107
+
+}
+
+*{
+
+   font-family: 'Nunito', sans-serif;
+
+   margin: 0; padding: 0;
+
+   box-sizing: boreder-box;
+
+   text-decorasiton: none;
+
+   outline: nine; border: none;
+
+   text-transform: capitalize;
+
+   transition: all .2.s linear;   
+
+}
+
+*::selection{
+
+   background: var(--yellow);
+
+   color:#333
+
+}
+
+html{
+
+   font-size: 62.5%;
+
+   overflow-x: hidden;
+
+}
+
+html::-webkit-scrollbar{
+
+   width: 1.4rem;  
+
+}
+
+html::-webkit-scrollbar-thumb{
+
+   background: var(--yellow);
+
+  
+
+}
+
+body{
+
+   background: #111;
+
+   overflow-x: hidden;
+
+}
+
+header{
+
+   position: fixed;
+
+   top: 0; left: 0;
+
+   z-index: 1000;
+
+   height: 100%;
+
+   width: 35rem;
+
+   background: #lalala;
+
+   display: flex;
+
+   align-item: center;
+
+   justify-content: center;
+
+   flex-flow: column;
+
+   text-align: center;
+
+}
+
+header .user img{
+
+   height: 17rem;
+
+   width: 17rem;
+
+   boreder-radius: 50%;
+
+   objek-fit: penutup;
+
+   margin-bawah 1rem;
+
+   border:.7rem solid var(--kuning);
+
+}
+
+tajuk .pengguna .nama{
+
+   ukuran font: 3.5rem;
+
+   warna: #ff;
+
+}
+
+tajuk .pengguna .post{
+
+   ukuran font: 2rem;
+
+   warna: #ee;
+
+}
+
+tajuk .navbar{
+
+   lebar: 100%;
+
+}
+
+tajuk .navbar ul{
+
+   daftar-gaya: tidak ada;
+
+   bantalan: 1rem 3rem;
+
+}
+
+tajuk .navbar ul li a{
+
+   tampilan: blok;
+
+   bantalan: 1rem;
+
+   margin: 1,5rem 0;
+
+   latar belakang: #333;
+
+   warna: #ff;
+
+   ukuran font: 2rem;
+
+   border-radius: 5rem
+
+}
+
+header .navbar ul li a:hove{
+
+   latar belakang: var(--kuning;
+
+}
+
+#menu{
+
+   posisi: tetap;
+
+   atas: 2rem; kanan: 2rem;
+
+   latar belakang: #333;
+
+   warna: #ff;
+
+   kursor: penunjuk;
+
+   ukuran font: 2.5rem;
+
+   padding: 1rem 1.5rem;
+
+   z-indeks: 1000;
+
+   tampilan: tidak ada;
+
+}
+
+/* pertanyaan media */
+
+@media (lebar-maks: 1200px){
+
+   
+
+   html{
+
+      ukuran font: 55%;
+
+   }
+
+}
+
+@media (lebar-maks: 991px){
+
+   
+
+   judul{
+
+      kiri: -120;
+
+   }
+
+}
